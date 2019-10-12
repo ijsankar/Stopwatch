@@ -1,6 +1,31 @@
 <head>
   <title>Count Down</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <style type="text/css">
+  body {
+  background-color : darkblue;
+  }
+  h1 {
+  text-align: center;
+  color: lightblue;
+  font-family: courier, monospace;
+  }
+  </style>
 </head>
 <body>
-<h1>Time</h1>
+<h1 id= "time" >Script not running</h1>
 </body>
+<script>
+var time= new Date(2019,09,12,13,30);
+var current = new Date();
+var diff= current-time;
+seconds= Math.floor(diff/1000);
+minutes=Math.floor(seconds/60);
+seconds=seconds%60;
+hours=Math.floor(minutes/60);
+minutes=minutes%60;
+days=Math.floor(hours/24);
+hours=hours%24;
+var text= `${days} days , ${hours} hours and ${minutes} minutes`;
+document.getElementById("time").innerHTML=text;
+</script>
