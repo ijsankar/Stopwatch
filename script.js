@@ -1,4 +1,4 @@
-var time= new Date(2019,09,12,21,00);
+var time= new Date(2019,09,13,13,00);
 var current = new Date();
 var diff= current-time;
 console.log("fff");
