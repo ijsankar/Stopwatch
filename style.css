@@ -7,6 +7,11 @@ h1 {
   font-family: courier, monospace;
   visibility:hidden;
   }
+a {
+  text-align: center;
+  color: lightblue;
+  font-family: courier, monospace;
+  }
 canvas {
     padding: 0;
     margin: auto;
