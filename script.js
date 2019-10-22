@@ -1,4 +1,4 @@
-var starttime= new Date(2019,09,15,19,15);
+var starttime= new Date(2019,09,22,13,30);
 var current = new Date();
 var diff= current-starttime;
 console.log("fff");
